@@ -1,0 +1,56 @@
+/* for Functionarea css*/
+
+.Functionarea {
+    background-color: #EBEBEB;
+    width: 300px;
+/*    padding: 24px 40px;*/
+}
+
+.Functionarea>div {
+    padding: 24px 40px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.Functionarea>div:last-child {
+    border-bottom: 0;
+}
+
+.Functionarea>div>label {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.Functionarea .justify-content_end {
+    justify-content: flex-end;
+}
+
+.Functionarea>.location select {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 8px;
+    border: 0;
+    border-radius: 2px;
+}
+
+.Functionarea>.date input{
+    margin-left: 13px;
+    width: 169px;
+    height: 40px;
+    padding: 10px 11px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 0;
+}
+
+.Functionarea>.date .from>label,
+.Functionarea>.date .to>label{
+    line-height: 40px;
+    margin: 0;
+}
+
+.Functionarea>.date>div,
+.Functionarea>.categories .checkboxgroup>label {
+    margin-bottom: 8px;
+}

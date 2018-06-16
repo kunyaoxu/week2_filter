@@ -1,0 +1,61 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    background-color: #7828B4;
+    color: white;
+    padding: 24px 0px;
+}
+
+.Header>.Header_s {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.Header>.Header_s>.logo {
+    width: 300px;
+    padding-left: 40px;
+}
+
+.Header>.Header_s>.search_area {
+    flex-grow: 1;
+    padding-left: 42px;
+    padding-right: 39px;
+    display: flex;
+}
+
+.Header>.Header_s>.search_area>.search_s {
+    padding-left: 4px;
+    width: 388px;
+    border-bottom: 2px solid white;
+    display: flex;
+}
+
+.Header>.Header_s>.search_area>.search_s>i {
+    font-size: 20px;
+/*    align-self: center;*/
+}
+
+.Header>.Header_s>.search_area>.search_s>input {
+    flex-grow: 1;
+    font-style: italic;
+    margin-left: 20px;
+    border: 0;
+    background-color: inherit;
+    margin-bottom: 4px;
+    padding: 0;
+    color: white;
+}
+
+.Header>.Header_s>.search_area>.search_s>input::placeholder {
+    color: #9B9B9B;
+    opacity: 1; /* Firefox */
+}
+
+.Header>.Header_s>.search_area>.search_s>input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #9B9B9B;
+}
+
+.Header>.Header_s>.search_area>.search_s>input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #9B9B9B;
+}

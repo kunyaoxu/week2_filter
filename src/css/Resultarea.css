@@ -1,0 +1,50 @@
+/* for Resultarea css*/
+
+.Resultarea {
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    flex-grow: 1;
+    padding: 24px 42px;
+}
+
+.Resultarea>.conditionarea{
+    margin-bottom: 24px;
+}
+
+.Resultarea>.conditionarea .condition_btn {
+    background-color: rgba(0,0,0,0);
+    font-style: italic;
+    color: #9013FE;
+    border: 1px solid #9013FE;
+    border-radius: 100px;
+    padding-right: 32px;
+    transition: all 0.3s;
+}
+
+.Resultarea>.conditionarea .condition_btn:hover {
+    color: white;
+    background-color: #9013FE;
+}
+
+.Resultarea>.conditionarea label.fa-times-circle {
+    position: relative;
+    color: #9013FE;
+    margin-right: 8px;
+    margin-bottom: 0px;
+}
+
+.Resultarea>.conditionarea label.fa-times-circle:hover::before {
+    color: white;
+/*    background-color: #9013FE;*/
+}
+
+.Resultarea>.conditionarea label.fa-times-circle::before {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+}
+

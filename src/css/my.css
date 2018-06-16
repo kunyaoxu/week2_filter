@@ -1,0 +1,9 @@
+body{
+/*    border: 1px solid red;*/
+    background-color: #F2F2F2;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}

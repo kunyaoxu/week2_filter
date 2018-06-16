@@ -1,0 +1,38 @@
+/* for Card css*/
+
+.Card {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.Card:last-child {
+    margin-bottom: 0;
+}
+
+.Card>.imgcontainer {
+    /*    position: relative;*/
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Card>.main {
+    display: flex;
+    padding: 24px 20px;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.Card>.main>.title {
+    display: block;
+}
+
+/*
+.Card>.imgcontainer>img {
+    position: relative;
+    width: 360px;
+    left: -70px;
+}*/
