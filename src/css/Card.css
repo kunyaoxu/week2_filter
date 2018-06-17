@@ -9,6 +9,14 @@
     margin-bottom: 0;
 }
 
+@media only screen and (min-width: 992px) {
+    .Card>.imgcontainer.col-lg {
+        flex-basis: 0;
+        flex-grow: 0;
+        max-width: 100%;
+    }
+}
+
 .Card>.imgcontainer {
     /*    position: relative;*/
     width: 220px;
@@ -53,4 +61,13 @@
     font-size: 16px;
     line-height: 19px;
     color: #9B9B9B;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .Card {
+        width: 388px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
