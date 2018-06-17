@@ -1,12 +1,13 @@
 /* for Functionarea css*/
 
 .Functionarea {
-    background-color: #EBEBEB;
+/*    background-color: #EBEBEB;*/
     width: 300px;
 /*    padding: 24px 40px;*/
 }
 
 .Functionarea>div {
+    background-color: #EBEBEB;
     padding: 24px 40px;
     border-bottom: 1px solid #D7D7D7;
 }
@@ -53,4 +54,12 @@
 .Functionarea>.date>div,
 .Functionarea>.categories .checkboxgroup>label {
     margin-bottom: 8px;
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .Functionarea {
+        width: 100%;
+        max-width: 100%;
+    }
 }

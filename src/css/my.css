@@ -7,3 +7,17 @@ body{
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .main {
+        display: block;
+    }
+    
+/*
+    .main>* {
+        width: 100%;
+        max-width: 100%;
+    }
+*/
+}
