@@ -69,8 +69,13 @@
     }
     .Header>.Header_s {
         width: 100%;
+/*        max-width: 100%;*/
         display: flex;
         flex-direction: column;
+    }
+    
+    .Header>.Header_s>.search_area>.search_s {
+        width: 100%;
     }
 
     .Header>.Header_s>.logo {
@@ -87,5 +92,9 @@
         box-shadow: 0 5px 10px 0px #D7D7D7;
         color: black;
 /*        padding: 0;*/
+    }
+    
+    .Header>.Header_s>.search_area>.search_s {
+        border-bottom: 1px solid black;
     }
 }

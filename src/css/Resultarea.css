@@ -1,7 +1,7 @@
 /* for Resultarea css*/
 
 .Resultarea {
-    justify-content: center;
+/*    justify-content: center;*/
     width: 100%;
     max-width: 900px;
     flex-grow: 1;
@@ -47,4 +47,3 @@
     transform: translate(-50%, -50%);
     transition: all 0.3s;
 }
-

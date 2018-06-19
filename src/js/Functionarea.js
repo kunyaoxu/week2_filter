@@ -7,41 +7,45 @@ import '../css/Functionarea.css';
 class Functionarea extends Component {
   constructor(props, context){
       super(props, context);
-      this.state = {};
+      this.state = {isCollapse: false};
+      this.toggleCollapse = this.toggleCollapse.bind(this);
+  }
 
+  toggleCollapse(){
+      this.setState({isCollapse: !this.state.isCollapse});
   }
 
   render() {
 //    console.log("render");
     return (
-      <div className="Functionarea">
-                  <div className="location">
-                      <label>Location</label>
-                      <div>
-                          <select>
-                              <option value="taipei">taipei</option>
-                          </select>
-                      </div>
-                  </div>
-                  <div className="date">
-                      <label>Date</label>
-                      <div className="from d-flex justify-content_end">
-                          <label>from</label>
-                          <input type="date" />
-                      </div>
-                      <div className="to d-flex justify-content_end">
-                          <label>to</label>
-                          <input type="date" />
-                      </div>
-                  </div>
-                  <div className="categories">
-                      <label>Categories</label>
-                      <div className="checkboxgroup">
-                          <label><input type="checkbox"/>Entertainment</label>
-                          <label><input type="checkbox"/>Entertainment</label>
-                          <label><input type="checkbox"/>Entertainment</label>
-                      </div>
-                  </div>
+      <div className="Functionarea" id="Functionarea">
+          <div className="location">
+              <label>Location</label>
+              <div>
+                  <select>
+                      <option value="taipei">taipei</option>
+                  </select>
+              </div>
+          </div>
+          <div className="date">
+              <label>Date</label>
+              <div className="from d-flex justify-content_end">
+                  <label>from</label>
+                  <input type="date" />
+              </div>
+              <div className="to d-flex justify-content_end">
+                  <label>to</label>
+                  <input type="date" />
+              </div>
+          </div>
+          <div className="categories">
+              <label>Categories</label>
+              <div className="checkboxgroup">
+                  <label><input type="checkbox"/>Entertainment</label>
+                  <label><input type="checkbox"/>Entertainment</label>
+                  <label><input type="checkbox"/>Entertainment</label>
+              </div>
+          </div>
       </div>
     );
   }

@@ -6,6 +6,10 @@
 /*    padding: 24px 40px;*/
 }
 
+.Functionarea>.collapse_btn{
+    display: none;
+}
+
 .Functionarea>div {
     background-color: #EBEBEB;
     padding: 24px 40px;
@@ -59,7 +63,15 @@
 
 @media only screen and (max-width: 767px) {
     .Functionarea {
+        position: relative;
         width: 100%;
         max-width: 100%;
+    }
+    
+    .Functionarea>div {
+        background-color: #EBEBEB;
+        padding: 24px 40px;
+/*        padding: 24px 40px;*/
+        border-bottom: 1px solid #D7D7D7;
     }
 }
