@@ -59,3 +59,33 @@
 .Header>.Header_s>.search_area>.search_s>input::-ms-input-placeholder { /* Microsoft Edge */
    color: #9B9B9B;
 }
+
+@media only screen and (max-width: 767px) {
+    
+    .Header {
+        padding: 0;
+        background-color: rgba(0,0,0,0);
+/*        background-color: #7828B4;*/
+    }
+    .Header>.Header_s {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Header>.Header_s>.logo {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-color: #7828B4;
+    }
+    
+    .Header>.Header_s>.search_area {
+        background-color: #EBEBEB;
+        padding: 14px 40px 10px 40px;
+        box-shadow: 0 5px 10px 0px #D7D7D7;
+        color: black;
+/*        padding: 0;*/
+    }
+}
